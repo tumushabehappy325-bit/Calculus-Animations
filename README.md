@@ -1,27 +1,16 @@
-A Python-based calculus visualization tool that demonstrates how functions and their derivatives behave using animations and interactive input.
-## How to Run
+#  Calculus Animations with Python
 
-### 1. Clone the repository
+A Python-based calculus visualization tool that demonstrates how functions behave and how their derivatives change using static plots, animations, and interactive input.
 
-### 2. Install dependencies
+---
 
-### 3. Run the programs
+##  Quick Start
 
-####  Animation (predefined function)
+```bash
+git clone https://github.com/tumushabehappy325-bit/Calculus-Animations.git
+cd Calculus-Animations
+pip install -r requirements.txt
+python3 interactive/interactive_calculus.py
 
-####  Static visualization
-
-####  Interactive mode (user-defined function)
-##  Notes
-
-- The animation shows how the tangent (derivative) changes along the curve.
-- Static plots display:
-  - the function
-  - its derivative
-  - critical points
-- Interactive mode allows you to enter your own function in terms of `x`.
-
-Example inputs:
-- x**2 + 16/x**2
-- sin(x) + x**2
-- x**3 - 3*x
+> Note: For MP4 export, install ffmpeg:
+> sudo apt install ffmpeg
